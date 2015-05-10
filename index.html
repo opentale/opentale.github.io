@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Three-Dots @ github.io </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript">
+	function pass(){
+		alert("Hello");
+		var form = document.querySelector("form")
+		var mail = form.Email.value;
+		var gist = form.storybody.value;
+		alert(mail);
+		alert(gist);
+}
+</script>
+<!-- bgcolor="#524F52"
+style="width: 600px" -->
+<body bgcolor="#2C2C2A" >
+<div class="content" style="width: 75%">
+	<div class="navi">
+		<a class="naviaref" href="https://three-dots.github.io/">Home</a>
+		<a class="naviaref" href="https://githubthreedots.blogspot.com">Blog</a>
+		<a class="naviaref" href="https://plus.google.com/116547564200698331593">Google +</a>
+	</div>
+	<div class="rest" >
+			<center><span class="title1">      <a href="https://three-dots.github.io/"><font size="7" face="rest-font">Dot</font><font size="5" face="rest-font">&nbsp&nbsp&nbspDot</font><font size="3" face="rest-font">&nbsp&nbsp&nbspDot</font></a> @ </span> <span class="github"><a href="https://pages.github.com/">github.io</a></span>
+		
+		<p>
+		Build an open source STORY!! by contributing lines.
+		</p>
+		</center>
+	</div>
+	</div>
+	<div class="comments" style="width:75%;height:750px;">
+			<center>
+			<form>
+				<span class = "formtext">
+				Your Email<br>
+				</span>
+				<input class="getmail" id="Email" type="email" name="Email" placeholder="Enter your Email Address"><br>
+				<span class = "formtext"><br>
+				Your Story Contribution<br>
+				</span>
+				<textarea class="textarea" id="gist" name="storybody" rows="10" cols="100" id="story"  placeholder="Enter your gist or contribution..."></textarea><br><br>
+				<button type="submit" class="submit" onclick="pass()">Submit a DOT</button>
+			</form>
+			</center>
+	</div>
+		
+	</div>
+	
+</body>
+</html>
