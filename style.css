@@ -22,24 +22,6 @@ p{
 	color:#FFFFFF;
 	padding-bottom: 20px;
 }
-.title1{
-	font-family: 'rest-font';
-	font-size: 72px;
-	color: #FFF7FB;
-}
-.github{
-	font-family: 'github';
-	font-size: 45px;
-	color: #FFF7FB;
-}
-.navi{
-	font-family: 'top-font';
-	font-size: 25px;
-	width:330px;
-	height:35px;
-	background-color: #2C2C2A;
-	/*background-image: url('bar.png');*/
-}
 a:link{
 	text-decoration: none;
 	color:#F7208B;
@@ -64,6 +46,108 @@ a:active{
 	padding-left: 10px;
 	padding-right: 10px; 
 }
+.title1{
+	text-decoration: none;
+	outline: none;
+	font-family: 'top-font';
+	font-size: 72px;
+	color: #FFF7FB;
+}
+.github{
+	text-decoration: none;
+	outline: none;
+	font-family: 'github';
+	font-size: 45px;
+	color: #FFF7FB;
+}
+.navi{
+	border-radius: 0px 100px 100px 0px;
+	font-family: 'top-font';
+	font-size: 25px;
+	width:275px;
+	background-color: #2C2C2A;
+}
+.home:link{
+	border-radius: 20px;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.home:visited{
+	border-radius: 20px;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.home:hover{
+	border-radius: 20px;
+	text-decoration: none;
+	color:#FFFFFF;
+	background-color: #F7208B;
+
+}
+.home:active{
+	border-radius: 5px 20px;
+	text-decoration: none;
+	color:#FFF7FB;
+
+}
+.blog:link{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.blog:visited{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.blog:hover{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#FFFFFF;
+	background-color: #FF6600;
+
+}
+.blog:active{
+	
+border-radius: 5px 20px;
+	text-decoration: none;
+	color:#FFF7FB;
+
+}
+.gplus:link{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.gplus:visited{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#F7208B;
+
+}
+.gplus:hover{
+	border-radius: 20px
+;
+	text-decoration: none;
+	color:#FFFFFF;
+	background-color: #CC0000;
+
+}
+.gplus:active{
+	border-radius: 5px 20px;
+	text-decoration: none;
+	color:#FFF7FB;
+}
 a:focus,
 input:focus,
 select:focus,
@@ -72,10 +156,12 @@ button:focus {
     outline: none;
 }
 .content{
+	border-radius: 0px 100px 100px 0px;
 	margin-left:-6px;
 	background-color: #524F52;
 }
 .comments{
+	border-radius: 0px 100px 100px 0px;
 	background-color: #524F52;
 	margin-left:-6px;
 	margin-top: -20px;
